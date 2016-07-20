@@ -1,0 +1,18 @@
+{
+    "name": "zipmoney/magento-gateway",
+    "require-dev": {        
+        "composer/composer": "~1.0@dev",
+        "phpunit/phpunit": "4.1.x-dev",
+        "phing/phing": "~2.11@dev"
+    },
+    "authors": [
+        {
+            "name": "Luke Mills",
+            "email": "luke@aligent.com.au"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "magento-root-dir": "."
+    }
+}
