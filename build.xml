@@ -96,7 +96,7 @@
     <exec command="php ${bin.magento} cache:flush" passthru="true" checkreturn="true" />
   </target>
 
-  <target name="-ndex-reindexall" depends="magento-cache-refresh">
+  <target name="index-reindexall" depends="cache-clean">
     <exec command="php ${bin.magento} index:reindex" passthru="true" checkreturn="true" />
   </target>
 
