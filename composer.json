@@ -1,14 +1,13 @@
 {
-    "name": "zipmoney/magento-gateway",
+    "name": "webgig/magento2-phing-setup",
     "require-dev": {        
         "composer/composer": "~1.0@dev",
-        "phpunit/phpunit": "4.1.x-dev",
         "phing/phing": "~2.11@dev"
     },
     "authors": [
         {
-            "name": "Luke Mills",
-            "email": "luke@aligent.com.au"
+            "name": "Sagar Bhandari",
+            "email": "webgig.sagar@gmail.com"
         }
     ],
     "minimum-stability": "dev",
