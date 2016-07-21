@@ -96,11 +96,11 @@
     <exec command="php ${bin.magento} cache:flush" passthru="true" checkreturn="true" />
   </target>
 
-  <target name="index-reindexall" depends="cache-clean">
+  <target name="reindexall" depends="cache-clean">
     <exec command="php ${bin.magento} index:reindex" passthru="true" checkreturn="true" />
   </target>
 
-  <target name="clean" description="Remove composer install dependencies, Magento directory and Magento database">
+  <target name="uninstall-magento" description="Remove composer install dependencies, Magento directory and Magento database">
     <exec command="php ${bin.magento} uninstall" passthru="true" checkreturn="true" />  
     <delete dir="${magento2.base_dir}" />
     <delete dir="${project.basedir}/vendor" />
